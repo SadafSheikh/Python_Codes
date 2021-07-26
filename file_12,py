@@ -1,1 +1,6 @@
-
+string = input("Enter a word: ")
+string_1 = string.lower()
+if string_1 == string_1[ : :-1]:
+    print(f"{string} is Palindrome")
+else:
+    print(f"{string} is not Palindrome")
